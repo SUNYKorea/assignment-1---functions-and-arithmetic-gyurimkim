@@ -1,6 +1,8 @@
 # Name: Kyulim Kim
 # SBUID: 115935868  
-
+##################### SCORE ######################
+####### Good work Score:  9.5/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -39,7 +41,7 @@ def euclidean_distance(x1, y1, x2, y2):
     return float(d)
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    s1 = abs((((x2-x1)**2)+((y2-y1)**2))**(1/2))
+    s1 = abs((((x2-x1)**2)+((y2-y1)**2))**(1/2)) # please use predefined functions here instead of the whole equations all over again
     s2 = abs((((x3-x2)**2)+((y3-y2)**2))**(1/2))
     s3 = abs((((x3-x1)**2)+((y3-y1)**2))**(1/2))
     perimeter = s1+s2+s3
@@ -59,7 +61,7 @@ def apothem(number_sides, length_side):
    return float(apothem)
 
 def polygon_area(number_sides, length_side):
-    polygon_area = float(number_sides)*float(length_side)*apothem(number_sides, length_side)/2
+    polygon_area = float(number_sides)*float(length_side)*apothem(number_sides, length_side)/2 # use functions and variables 
     return float(polygon_area)
     
 
